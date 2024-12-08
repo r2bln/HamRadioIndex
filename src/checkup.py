@@ -29,12 +29,21 @@ def extract_urls_from_markdown(file_path):
 def check_url(url):
     """Проверяет доступность URL."""
     try:
-        response = requests.head(url, timeout=10, allow_redirects=True)
+        response = requests.get(
+            url, 
+            timeout=10, 
+            allow_redirects=True, 
+            headers={ 
+                "Content-Type": "text/html; charset=utf-8", 
+                "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0'
+            }
+        )
         status = response.status_code
         return {
             'url': url,
             'status': status,
-            'available': 200 <= status < 400
+            'available': 200 <= status < 400 or status == 403 # ignore cloudflare forbid for now
         }
     except requests.RequestException as e:
         return {
