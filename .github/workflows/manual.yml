@@ -16,6 +16,4 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     - name: Check urls
-      run: |
-        ls -la
-        python3 ./src/checkup.py ${{ inputs.file }}
+      run: python3 ./src/checkup.py ${{ inputs.file }}
