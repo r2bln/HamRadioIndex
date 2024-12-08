@@ -21,13 +21,25 @@
 - [RR3AAC](https://rr3aac.wordpress.com/) - Московский ретранслятор в диапазоне 10м
 - [APRS Сервер Троицк](http://t2troitsk.rc3c.ru:14501/)
 - [DMR сервер Россия в BrandMeister](https://wiki.brandmeister.network/index.php/Russia)
+- [EchoLink Россия Телеграм](t.me/EchoLinkRU)
+- [EchoLink Россия Сайт](http://www.echolink.ru)
+- [FRN Сеть Digital HAMCom](https://digital.hamcom.ru/)
+- [FRN Сеть Radiocult Телеграм](https://t.me/radiocult_su)
+- [FRN Сеть Radiocult (Список узлов)](http://radiocult.su/table/)
 
+| Позывной |                      Тип, место                      | Вход (сюда мы говорим) | Выход (тут мы слушаем) |    Тон     | Последняя проверка |
+| :------: | :--------------------------------------------------: | :--------------------: | :--------------------: | :--------: | :----------------: |
+|    -     |        Аналоговый ретранслятор, г. Зеленоград        |        145.025         |        145.625         | CTCSS 88.5 |     08.12.2024     |
+|  RR3DAC  |     Аналоговый ретранслятор, г. Москва, Кунцево      |        145.050         |        145.650         | CTCSS 88.5 |     08.12.2024     |
+|  RR3AL   | Аналогово-цифровой (Wires-X) ретранслятор, г. Троицк |        145.100         |        145.700         | CTCSS 94.8 |     08.12.2024     |
 ## WebSDR
 - http://websdr.su/ - 27МГц, 29МГц, 145Мгц
 - http://ub3aww.ru:8888/ - 29МГц
 
 ## Инструменты
 - [Онлайн журнал QSO](https://hamlog.online)
+- [Альтернативный онлайн журнал QSO](https://qso.su)
+- [Официальный онлайн журнал QSO](https://logradio.ru/)
 - [Визуализатор связей из журнала на карте](http://tools.adventureradio.de/analyzer/)
 - [Поисковик QTH по карте](https://k7fry.com/grid/)
 - [Сайт обменник 3д моделей для печати](https://www.thingiverse.com/)
