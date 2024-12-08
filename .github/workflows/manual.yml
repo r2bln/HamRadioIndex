@@ -1,13 +1,8 @@
 name: Check urls
 
 on:
-  workflow_dispatch:
-    inputs:
-      file:
-        description: 'File to parse'
-        default: 'README.md'
-        required: true
-        type: string
+  schedule:
+    - cron: "*/15 * * * *"
 
 jobs:
   checkup:
@@ -16,4 +11,4 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     - name: Check urls
-      run: python3 ./src/checkup.py ${{ inputs.file }}
+      run: python3 ./src/checkup.py README.md
