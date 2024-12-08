@@ -1,17 +1,10 @@
-# This is a basic workflow that is manually triggered
-
 name: Check urls
 
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
 on:
   workflow_dispatch:
-    # Inputs the workflow accepts.
     inputs:
       file:
-        # Friendly description to be shown in the UI instead of 'name'
         description: 'File to parse'
-        # Default value if no value is explicitly provided
         default: 'README.md'
         required: true
         type: string
@@ -20,6 +13,8 @@ jobs:
   checkup:
     runs-on: self-hosted
     steps:
+    - name: checkout
+      uses: actions/checkout@v4
     - name: Check urls
       run: |
         ls -la
