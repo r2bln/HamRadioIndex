@@ -28,5 +28,5 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
-    - name: Send greeting
-      run: python ./src/checkup.py ${{inputs.file}}
+    - name: Check urls
+      run: python3 ./src/checkup.py ${{ inputs.file }}
