@@ -21,7 +21,7 @@
 - [RR3AAC](https://rr3aac.wordpress.com) - Московский ретранслятор в диапазоне 10м
 - [APRS Сервер Троицк](http://t2troitsk.rc3c.ru:14501)
 - [DMR сервер Россия в BrandMeister](https://wiki.brandmeister.network/index.php/Russia)
-- [EchoLink Россия Телеграм](t.me/EchoLinkRU)
+- [EchoLink Россия Телеграм](https://t.me/EchoLinkRU)
 - [EchoLink Россия Сайт](http://www.echolink.ru)
 - [FRN Сеть Digital HAMCom](https://digital.hamcom.ru)
 - [FRN Сеть Radiocult Телеграм](https://t.me/radiocult_su)
@@ -35,8 +35,8 @@
 |  RR3DAC  |     Аналоговый ретранслятор, г. Москва, Кунцево      |        145.050         |        145.650         | CTCSS 88.5 |     08.12.2024     |
 |  RR3AL   | Аналогово-цифровой (Wires-X) ретранслятор, г. Троицк |        145.100         |        145.700         | CTCSS 94.8 |     08.12.2024     |
 ## WebSDR
-- http://websdr.su/ - 27МГц, 29МГц, 145Мгц
-- http://ub3aww.ru:8888/ - 29МГц
+- [websdr.su](http://websdr.su/) - 27МГц, 29МГц, 145Мгц
+- [ub3aww](http://ub3aww.ru:8888/) - 29МГц
 
 ## Инструменты
 - [Онлайн журнал QSO](https://hamlog.online)
