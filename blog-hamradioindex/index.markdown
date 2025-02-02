@@ -29,7 +29,7 @@ layout: home
 - [FRN Сеть Digital HAMCom](https://digital.hamcom.ru)
 - [FRN Сеть Radiocult Телеграм](https://t.me/radiocult_su)
 - [FRN Сеть Radiocult (Список узлов)](http://radiocult.su/table)
-- [Russian LPD Network](http://www.lpdnet.ru)
+- [Российская сеть LPD станций (FRN)](https://lpdnetwork.narod.ru)
 
 ## WebSDR
 - [websdr.su](http://websdr.su/) - 27МГц, 29МГц, 145Мгц
