@@ -11,4 +11,4 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     - name: Check urls
-      run: python3 ./src/checkup.py README.md
+      run: python3 ./src/checkup.py blog-hamradioindex/index.markdown
