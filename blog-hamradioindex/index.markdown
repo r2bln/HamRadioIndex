@@ -46,6 +46,7 @@ layout: home
 - [Карта RDA/RAFA районов QTH и прочее](https://r1cf.ru/rdaloc)
 - [Тренажер для изучения телеграфа](https://lcwo.net)
 - [Cписок APRS карт которые по идее работают](https://www.aprsdirect.com)
+- [Карта с прогнозами прохождений](https://dxinfocentre.com)
 
 ## Технические ресурсы и справочники
 - [R7HJ](http://kavkaz.qrz.ru)
